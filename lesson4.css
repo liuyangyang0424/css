@@ -1,7 +1,7 @@
-*{
+/* *{
 	margin:0;
 	padding: 0;
-}
+} */
 /* .plat{
 	position: absolute;
 	left: 50%;
@@ -66,5 +66,112 @@ border: 1px solid #f40;
 	background-color: #123;
 } */
 
+/* .wrapper{
+	overflow: hidden;
+	margin-left:100px;
+	margin-top: 100px;
+	width: 100px;
+	height: 100px;
+	background-color: black;
+}
+
+.content{
+	margin-left:50px;
+	margin-top:50px;
+	width: 50px;
+	height: 50px;
+	background-color: red;
+
+} */
+/*前边伪元素*/
+/* span::before{
+	position: absolute;
+	left:0;
+	top:100px;
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+后边伪元素
+span::after{
+    content:"是的，的确这样!";
+} */
+
+/* *{
+	margin:0;
+	padding:0;
+	font-family: arial;
+	color:#424242;
+}
+a{
+	text-decoration: none;
+}
+.nav{
+	list-style: none;
+}
+.nav::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.nav .list-item{
+	float: left;
+	margin: 0 10px;
+	border:1px solid black;
+	height: 30px;
+	line-height: 30px;
+}
+.nav .list-item a{
+	 padding: 0 5px;
+	color: #f40;
+	font-weight: bold;
+	height: 30px;
+	display: block;
+}
+.nav .list-item a:hover{
+	background-color:#f40;
+     color: #fff;
+     border-radius: 10px;
 
 
+} */
+
+*{
+	margin:0;
+	padding: 0;
+	color: #424242;
+	font-family: arial;
+}
+
+.nav{
+	list-style: none;
+}
+.nav::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+.nav .list-item{
+	float: left;
+	/*border: 1px solid black;*/
+	margin: 0 10px;
+	height: 30px;
+	line-height: 30px;
+}
+.nav .list-item a{
+    color: #f40;
+    height: 30px;
+    display: block;
+    padding: 0 10px;
+}
+.nav .list-item a:hover{
+	color: #fff;
+	background-color:#f40; 
+	 border-radius: 10px;
+}
