@@ -139,39 +139,58 @@ a{
 
 } */
 
-*{
-	margin:0;
-	padding: 0;
-	color: #424242;
-	font-family: arial;
-}
+/* p{
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid black;
 
-.nav{
-	list-style: none;
-}
-.nav::after{
-	content: "";
-	display: block;
-	clear: both;
-}
+	white-space: nowrap;      文本不换行
+	overflow: hidden;         溢出文本不显示
+	text-overflow: ellipsis;   溢出文字...显示
+
+} */
+
+
+/* div{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-image: url(123.jpg);
+	background-size: 100px 100px;      图片宽、高
+	background-repeat: no-repeat;      不重复展示
+	
+} */
+
+/* div{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-image: url(123.jpg);
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+} */
 a{
+	display: inline-block;
 	text-decoration: none;
-}
-.nav .list-item{
-	float: left;
-	/*border: 1px solid black;*/
-	margin: 0 10px;
-	height: 30px;
-	line-height: 30px;
-}
-.nav .list-item a{
-    color: #f40;
-    height: 30px;
-    display: block;
-    padding: 0 10px;
-}
-.nav .list-item a:hover{
-	color: #fff;
-	background-color:#f40; 
-	 border-radius: 10px;
-}
+	color: #424242;
+	width: 190px;
+	height: 0px;
+	padding-top: 90px;
+	overflow: hidden;
+	border: 1px solid black;
+	background-image: url(https://img.alicdn.com/tfs/TB1_uT8a5ERMeJjSspiXXbZLFXa-143-59.png);
+	background-size: 190px 90px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
